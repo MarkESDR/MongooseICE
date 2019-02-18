@@ -16,7 +16,7 @@ config :mongooseice, secret:
 config :mongooseice, servers: [
   {:udp, [
     ip:       {:system, :string,  "MONGOOSEICE_UDP_BIND_IP",   "127.0.0.1"},
-    port:     {:system, :integer, "MONGOOSEICE_UDP_PORT",      3478},
+    port:     {:system, :integer, "PORT",      3478},
     realm:    {:system, :string,  "MONGOOSEICE_UDP_REALM",     "udp.localhost.local"},
     relay_ip: {:system, :string,  "MONGOOSEICE_UDP_RELAY_IP",  "127.0.0.1"},
   ]},
